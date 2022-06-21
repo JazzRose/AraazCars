@@ -1,17 +1,12 @@
-public class Tyres extends Components{
+public class Tyres{
 
     private int tread;
     private String make;
 
-    public Tyres(int costOfPart, double damage, int tread, String make) {
-        super(costOfPart, damage);
+    public Tyres(int tread, String make) {
+
         this.tread = tread;
         this.make = make;
-    }
-
-    public Tyres(int costOfPart, double damage) {
-        super(costOfPart, damage);
-
     }
 
     public int getTread() {

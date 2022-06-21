@@ -1,11 +1,10 @@
-public class Engine extends Components{
+public class Engine{
 
     private String type;
     private int horsePower;
 
 
-    public Engine(int costOfPart, double damage, String type, int horsePower) {
-        super(costOfPart, damage);
+    public Engine(String type, int horsePower) {
         this.type = type;
         this.horsePower = horsePower;
     }

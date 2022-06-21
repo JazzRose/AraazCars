@@ -11,17 +11,7 @@ public class EngineTest {
 
     @Before
     public void before(){
-        engine = new Engine(400,0.5,"Motor",200);
-    }
-
-    @Test
-    public void hasCostOfPart(){
-        assertEquals(400,engine.getCostOfPart());
-    }
-
-    @Test
-    public void hasDamageAmount(){
-        assertEquals(0.5,engine.getDamage(),0.00);
+        engine = new Engine("Motor",200);
     }
 
     @Test
