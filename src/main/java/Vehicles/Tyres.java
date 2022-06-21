@@ -1,3 +1,5 @@
+package Vehicles;
+
 public class Tyres{
 
     private int tread;

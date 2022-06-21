@@ -1,3 +1,5 @@
+package Vehicles;
+
 public enum BikeClassification {
 
     SPORTS,

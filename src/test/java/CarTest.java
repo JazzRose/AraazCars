@@ -1,3 +1,6 @@
+import Vehicles.Car;
+import Vehicles.Engine;
+import Vehicles.Tyres;
 import org.junit.Before;
 import org.junit.Test;
 
